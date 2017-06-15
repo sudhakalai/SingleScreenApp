@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.dsarees.MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_height">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/img_height"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dsarees" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="cursive"
+            android:paddingBottom="@dimen/heading_padding_bottom"
+            android:paddingLeft="@dimen/heading_padding_left"
+            android:text="@string/heading"
+            android:textColor="@color/white"
+            android:textSize="@dimen/heading_text"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_top1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/content_img_width"
+            android:layout_height="@dimen/content_img_height"
+            android:layout_marginLeft="@dimen/content_img_marginleft"
+            android:layout_marginRight="@dimen/content_img_marginright"
+            android:src="@drawable/location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/content_paddingtop"
+            android:text="@string/content1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content_text"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_top2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/content_img_width"
+            android:layout_height="@dimen/content_img_height"
+            android:layout_marginLeft="@dimen/content_img_marginleft"
+            android:layout_marginRight="@dimen/content_img_marginright"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/content_paddingtop"
+            android:text="@string/content2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_top2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/content_img_width"
+            android:layout_height="@dimen/content_img_height"
+            android:layout_marginLeft="@dimen/content_img_marginleft"
+            android:layout_marginRight="@dimen/content_img_marginright"
+            android:src="@drawable/mail" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/content_paddingtop"
+            android:text="@string/content3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_top2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/content_img_width"
+            android:layout_height="@dimen/content_img_height"
+            android:layout_marginLeft="@dimen/content_img_marginleft"
+            android:layout_marginRight="@dimen/content_img_marginright"
+            android:src="@drawable/hours" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/content_paddingtop"
+            android:text="@string/content4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/content_margin_top2"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="@dimen/content_img_width"
+            android:layout_height="@dimen/content_img_height"
+            android:layout_marginLeft="@dimen/content_img_marginleft"
+            android:layout_marginRight="@dimen/content_img_marginright"
+            android:src="@drawable/info" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/content5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/content_text"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
